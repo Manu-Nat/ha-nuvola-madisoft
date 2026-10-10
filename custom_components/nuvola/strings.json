@@ -1,0 +1,40 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Nuvola Madisoft",
+        "description": "Inserisci le credenziali usate per accedere a Nuvola.",
+        "data": {
+          "username": "Nome utente",
+          "password": "Password"
+        }
+      },
+      "students": {
+        "title": "Seleziona gli studenti",
+        "description": "Puoi selezionare da 1 a 5 studenti. Se l'account ne contiene più di 5, scegli quelli da aggiungere a Home Assistant.",
+        "data": {
+          "student_ids": "Studenti"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Username o password non validi.",
+      "cannot_connect": "Impossibile collegarsi a Nuvola.",
+      "no_students": "Nessuno studente associato all'account.",
+      "too_many_students": "Puoi selezionare da 1 a 5 studenti.",
+      "unknown": "Errore inatteso.",
+      "login_failed": "Login non completato: {detail}"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Studenti Nuvola",
+        "description": "Modifica gli studenti collegati a questa integrazione. Sono supportati al massimo 5 studenti.",
+        "data": {
+          "student_ids": "Studenti"
+        }
+      }
+    }
+  }
+}

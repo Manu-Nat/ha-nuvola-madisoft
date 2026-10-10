@@ -1,0 +1,12 @@
+{
+  "domain": "nuvola",
+  "name": "Nuvola Madisoft",
+  "codeowners": ["@Manu-Nat"],
+  "config_flow": true,
+  "documentation": "https://github.com/Manu-Nat/ha-nuvola-madisoft",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/Manu-Nat/ha-nuvola-madisoft/issues",
+  "requirements": [],
+  "version": "1.3.0"
+}
